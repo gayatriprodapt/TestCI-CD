@@ -40,5 +40,5 @@ pipeline {
         snInstallApp(credentialsId: "${CREDENTIALS}", url: "${PRODENV}", appSysId: "${APPSYSID}")
       }
     } 
-  }  
+  }
 }
