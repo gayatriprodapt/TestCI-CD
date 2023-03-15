@@ -16,10 +16,10 @@ pipeline {
   }
   steps {
     appCenter apiToken: APPCENTER_API_TOKEN,
-            ownerName: 'janes-addiction',
-            appName: 'ritual-de-lo-habitual',
-            pathToApp: 'three/days/xiola.apk',
-            distributionGroups: 'casey, niccoli'
+            ownerName: 'System Administator',
+            appName: 'CICD DemoApp',
+            pathToApp: 'https://dev125267.service-now.com/$studio.do?sysparm_transaction_scope=69d0c8b347112110fb6e7ac8f36d438d&sysparm_nostack=true&sysparm_use_polaris=false',
+           // distributionGroups: ''
   }
 }
     stage('Build') {
