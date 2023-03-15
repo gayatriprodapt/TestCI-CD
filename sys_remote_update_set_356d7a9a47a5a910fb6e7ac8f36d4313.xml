@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2023-03-15 15:13:25">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="CICD DemoApp">69d0c8b347112110fb6e7ac8f36d438d</application>
+<application_name>CICD DemoApp</application_name>
+<application_scope>x_1008230_cicd_dem</application_scope>
+<application_version>1.0.12</application_version>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>Automatically created by the system</description>
+<inserted/>
+<name>System Administrator</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>796184f747112110fb6e7ac8f36d430c</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2023-03-15 15:13:24</sys_created_on>
+<sys_id>356d7a9a47a5a910fb6e7ac8f36d4313</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2023-03-15 15:13:24</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+</unload>
