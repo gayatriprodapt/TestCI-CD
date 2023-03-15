@@ -10,6 +10,18 @@ pipeline {
     TESTSUITEID = '845f8b900b20220050192f15d6673aee'
   }
   stages {
+    stage('Publish') {
+  environment {
+    APPCENTER_API_TOKEN = credentials('4a37b613-0182-45c9-b0d7-d829bd88d3f6')
+  }
+  steps {
+    appCenter apiToken: APPCENTER_API_TOKEN,
+            ownerName: 'janes-addiction',
+            appName: 'ritual-de-lo-habitual',
+            pathToApp: 'three/days/xiola.apk',
+            distributionGroups: 'casey, niccoli'
+  }
+}
     stage('Build') {
       when {
         not {
